@@ -1,0 +1,13 @@
+.h-screen {
+    height: 100vh;
+  }
+  
+.bg-gradient-from-blue-100-to-blue-300 {
+    background: linear-gradient(to bottom, #a0c0ff, #3080e8);
+}
+  
+.centered-text {
+    text-align: center;
+    font-size: 2em; 
+    padding-top: 30px;
+}
