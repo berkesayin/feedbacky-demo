@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="feedbacky-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/feedbacky-cdn@1.0.0/index.js"></script>
+    <script>
+      feedbacky.run({
+        googleSheetId: "95a57d16-dcc3-4f57-8e24-dfbba8e9e786",
+        modalSuccessTitle: "Thanks for sharing your feedback!",
+        sendButtonText: "Send Feedback",
+        nameInputPlaceholder: "Your Name",
+        surnameInputPlaceholder: "Your Surname",
+        feedbackInputPlaceholder: "Your Feedback",
+        modalSuccessIconSize: 100,
+        modalSuccessIconColor: "green",
+        feedbackyButtonIconSize: 45,
+        modalTitle: "Share what you think with us...",
+      });
+    </script>
+  </body>
+</html>
